@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web&display=swap');
+
+body{
+  font-family: 'Titillium Web', sans-serif;
+}
+
+hr{
+  width: 16%;
+  border: 2px solid rgba(0,0,0,.3);
+}
+
+
+/* >>>>>>>>>> FIRST SECTION <<<<<<<<<< */
+
+#welcome{
+  background-color: #87509c;
+  color:#EEE;
+}
+
+#logo_cuda{
+  width: 8rem;
+  height: auto;
+}
+
+#navbarNav a:hover{
+  background-color: #643a79;
+  border-radius: 4px;
+}
+
+#btn-work-with-us{
+  background-color: #eb7d4b;
+  border: 0;
+  box-shadow: 1px 1px 0px 1px #CC6600;
+}
+#btn-work-with-us:hover{
+  background-color: #eb692d;
+  box-shadow: 1px 1px 0px 1px #C66300;
+}
+
+/* >>>>>>>>>> SCND SECTION <<<<<<<<<< */
+
+#services{
+  background-color: #17c2a4;
+}
+
+/* >>>>>>>>>> THRD SECTION <<<<<<<<<< */
+
+#team{
+  background-color: #e7f1f8;
+}
+
+.social-icon{
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  padding: 6px;
+  background-color: #c1e1f5;
+  cursor: pointer;
+}
+.social-icon:hover{
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  padding: 6px;
+  background-color: #bdd1df;
+  cursor: pointer;
+}
+
+
+/* >>>>>>>>>> FRTH SECTION <<<<<<<<<< */
+
+#skills{
+  background-color: #ffffff;
+}
+
+/* ##### Progress bar ##### */
+
+.progress {
+  width: 150px;
+  height: 150px;
+  background: none;
+  position: relative;
+}
+
+.progress::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  border: 6px solid #eee;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.progress>span {
+  width: 50%;
+  height: 100%;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+}
+
+.progress .progress-left {
+  left: 0;
+}
+
+.progress .progress-bar {
+  width: 100%;
+  height: 100%;
+  background: none;
+  border-width: 6px;
+  border-style: solid;
+  position: absolute;
+  top: 0;
+}
+
+.progress .progress-left .progress-bar {
+  left: 100%;
+  border-top-right-radius: 80px;
+  border-bottom-right-radius: 80px;
+  border-left: 0;
+  -webkit-transform-origin: center left;
+  transform-origin: center left;
+}
+
+.progress .progress-right {
+  right: 0;
+}
+
+.progress .progress-right .progress-bar {
+  left: -100%;
+  border-top-left-radius: 80px;
+  border-bottom-left-radius: 80px;
+  border-right: 0;
+  -webkit-transform-origin: center right;
+  transform-origin: center right;
+}
+
+.progress .progress-value {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* >>>>>>>>>> OTHER SECTIONS: see you later :) <<<<<<<<<< */
+
+#portfolio{
+  background-color: #ffdd99;
+}
+
+#testimonials{
+  background-color: #d74680;
+}
+
+#get_in_touch{
+  background-color: #3c5499;
+  height: 240px;
+}
